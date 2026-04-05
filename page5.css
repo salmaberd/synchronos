@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  .logo {
+    position: fixed;
+    margin-left: 1%;
+    width : 100px;
+    height: 100px;
+    top: 5px;
+}
+  
+  /* Conteneur principal prenant toute la hauteur et largeur disponibles */
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+  
+  /* Section de l'image avec une largeur réduite */
+  .image-section {
+    flex: 1; /* Prend une partie de l'espace (peut être ajustée) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+  
+  .image-section img {
+      width: 48vw;
+      height: auto;
+  }
+  
+  /* Section du texte */
+  .text-section {
+    flex: 1; /* Prend une autre partie de l'espace */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-family: "Gotu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+  .text-section h1 {
+    margin: 0%;
+    margin-top: -15%;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bold;
+  }
+  
+  a:hover{
+    color: chocolate;
+
+  }
+  .text-section h2 {
+    margin: 20px;
+    margin-top: 20%;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .text-section p {
+    margin: 10px 0;
+    font-size: 30px; 
+    line-height: 1.8;
+    margin-left: 2px; 
+    text-align: left;
+  }
+
+
+.title {
+  text-decoration: none;
+    color: black;
+    font-family: "Gotu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5%;
+    position: fixed;
+    top: 0;
+  width: 500px;
+  margin-top: 0;
+  background: white;
+  padding: 10px;
+
+
+}

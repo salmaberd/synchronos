@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  .logo {
+    position: fixed;
+    margin-left: 1%;
+    width : 120px;
+    top: 5px;
+}
+  
+  /* Conteneur principal prenant toute la hauteur et largeur disponibles */
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+  
+  /* Section de l'image avec une largeur réduite */
+  .image-section {
+    flex: 1; /* Prend une partie de l'espace (peut être ajustée) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+  
+  .image-section img {
+    max-width: 101%; /* Réduit la taille de l'image (peut être ajusté) */
+    height: auto; /* Conserve le ratio de l'image */
+  }
+  
+  /* Section du texte */
+  .text-section {
+    flex: 1; /* Prend une autre partie de l'espace */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement */
+  }
+  
+  .text-section h1 {
+    margin: 0%;
+    margin-top: -15%;
+    text-align: center;
+    font-size: 30px; /* Texte plus grand */
+    font-weight: bold;
+  }
+  
+  .text-section h2 {
+    margin: 20px;
+    margin-top: 20%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text-section p {
+    margin: 10px 0;
+    font-size: 18px; /* Texte légèrement plus grand */
+    line-height: 1.8;
+    margin-left: 2px; /* Déplace le texte de 20px vers la gauche */
+  }
